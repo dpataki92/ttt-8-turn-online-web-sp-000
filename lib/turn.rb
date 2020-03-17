@@ -56,7 +56,7 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    puts "Sorry, invalid character :("
+    puts "Sorry, invalid move :("
     turn(board)
   end
 end
